@@ -1,0 +1,14 @@
+[Unit]
+Description=My App
+After=network.target
+
+[Service]
+Type=Simple
+User=nobody
+ExecStart=/usr/bin/python3 /opt/myapp/alive.py
+Restart=on-failure
+MemoryMax=50M
+CPUQuota=20%
+
+[Install]
+WantedBy=multi-user.target
