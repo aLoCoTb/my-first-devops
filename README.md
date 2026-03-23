@@ -172,7 +172,7 @@ ________________________________________________________________________________
 
 *Смотрим изначальную карту диска*
 
-1. Отключаем VM и расширяем диск до 20Gb
+1. **Отключаем VM и расширяем диск до 20Gb**
 <img width="200" height="90" alt="Image" src="https://github.com/user-attachments/assets/9f2645f9-6815-403c-9c28-6906ad28a670" />
 <img width="200" height="90" alt="Image" src="https://github.com/user-attachments/assets/b9eb1d2c-e717-414a-8c3c-2d4993544621" />
 
@@ -180,6 +180,12 @@ ________________________________________________________________________________
 
 *Карта диска после добавления*
 
-2. C помощью `fdisk /dev/sda/` создаем новый раздел
+2. **C помощью `fdisk /dev/sda/` создаем новый раздел**
 
-3. 
+3. **Объединяем размеры**
+   ```sudo lvextend -l +100%FREE /dev/debiantest-vg/root
+   sudo xfs_growfs /dev/mapper/debiantest--vg-root```
+
+4. **Проверяем размер LVM**
+
+<img width="512" height="182" alt="Image" src="https://github.com/user-attachments/assets/4dfddaaa-c94a-48d0-91f1-0867ad9e23ce" />
