@@ -32,9 +32,13 @@ ________________________________________________________________________________
 - **WantedBy=multi-user.target** - *означает, что сервис будет запущен, когда система перейдёт в многопользовательский режим*
 ____________________________________________________________________________________________________________________________
 
-## Взаимодействие с сервисом (stop/start/status)
+## Взаимодействие с сервисом alive.service (stop/start/status)
 
 <img width="748" height="552" alt="Image" src="https://github.com/user-attachments/assets/512cd5f9-269d-4376-bbf3-63635b3888ba" />
+
+## Вывод journalctl -u alive.service
+
+<img width="655" height="374" alt="Image" src="https://github.com/user-attachments/assets/193d273d-b892-43d1-bb0c-31c1ad00de2b" />
 
 ## Задание 2. Настройка файрвола с помощью iptables/nftables
 
