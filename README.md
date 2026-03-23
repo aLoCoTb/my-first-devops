@@ -161,3 +161,10 @@ ________________________________________________________________________________
 <img width="390" height="120" alt="Image" src="https://github.com/user-attachments/assets/321ba6eb-4a0c-4757-be60-2819955dc9a2" />
 
 *Проверка SSH подключения, доступ осуществляется только с 192.168.26.1 `tcp dport 22 ip saddr 192.168.26.1 accept`*
+---
+
+#Задание 3. Работа с LVM
+
+Смотрим изначальную карту диска
+<img width="504" height="131" alt="Image" src="https://github.com/user-attachments/assets/0565dd9f-4661-4e76-8fae-c6c50f7b2054" />
+
