@@ -34,7 +34,7 @@ ________________________________________________________________________________
 
 ## Взаимодействие с сервисом alive.service (stop/start/status)
 
-<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/512cd5f9-269d-4376-bbf3-63635b3888ba" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/512cd5f9-269d-4376-bbf3-63635b3888ba" />
 
 ## Вывод journalctl -u alive.service
 
