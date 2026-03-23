@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 ## Вывод journalctl -u alive.service
 
-<img width="655" height="374" alt="Image" src="https://github.com/user-attachments/assets/193d273d-b892-43d1-bb0c-31c1ad00de2b" />
+<img width="600" height="500" alt="Image" src="https://github.com/user-attachments/assets/193d273d-b892-43d1-bb0c-31c1ad00de2b" />
 
 # Задание 2. Настройка файрвола с помощью iptables/nftables
 
