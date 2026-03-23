@@ -183,8 +183,8 @@ ________________________________________________________________________________
 2. **C помощью `fdisk /dev/sda/` создаем новый раздел**
 
 3. **Объединяем размеры**
-   ```sudo lvextend -l +100%FREE /dev/debiantest-vg/root
-   sudo xfs_growfs /dev/mapper/debiantest--vg-root```
+   `sudo lvextend -l +100%FREE /dev/debiantest-vg/root`
+   `sudo xfs_growfs /dev/mapper/debiantest--vg-root`
 
 4. **Проверяем размер LVM**
 
