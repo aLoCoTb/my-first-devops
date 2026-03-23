@@ -41,7 +41,7 @@ nft flush ruleset
 
 #### Правила для входящих пакетов
 
-- type filter hook input priority filter; policy drop;
+type filter hook input priority filter; policy drop; `#0969DA`
 запрещает все входящие соединения
 
 iif "lo" accept
