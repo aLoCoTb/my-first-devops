@@ -169,10 +169,17 @@ ________________________________________________________________________________
 ## Расширяем место до 20Gb
 
 <img width="504" height="131" alt="Image" src="https://github.com/user-attachments/assets/0565dd9f-4661-4e76-8fae-c6c50f7b2054" />
+
 *Смотрим изначальную карту диска*
 
 1. Отключаем VM и расширяем диск до 20Gb
-<img width="256" height="79" alt="Image" src="https://github.com/user-attachments/assets/9f2645f9-6815-403c-9c28-6906ad28a670" />
-<img width="212" height="82" alt="Image" src="https://github.com/user-attachments/assets/b9eb1d2c-e717-414a-8c3c-2d4993544621" />
+<img width="390" height="90" alt="Image" src="https://github.com/user-attachments/assets/9f2645f9-6815-403c-9c28-6906ad28a670" />
+<img width="390" height="90" alt="Image" src="https://github.com/user-attachments/assets/b9eb1d2c-e717-414a-8c3c-2d4993544621" />
 
+<img width="500" height="150" alt="Image" src="https://github.com/user-attachments/assets/b36c56ee-ddb0-4068-85ef-d6684044f191" />
 
+*Карта диска после добавления*
+
+2. C помощью `fdisk /dev/sda/` создаем новый раздел
+
+3. 
