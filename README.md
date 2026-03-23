@@ -1,6 +1,6 @@
 # my-first-devops
 
-## Задание 1. Systemd-сервис с ограничениями
+# Задание 1. Systemd-сервис с ограничениями
 
 ## Содержимое Systemd-Unit alive.service, для выполнения скрипта alive.py
 
@@ -40,7 +40,7 @@ ________________________________________________________________________________
 
 <img width="655" height="374" alt="Image" src="https://github.com/user-attachments/assets/193d273d-b892-43d1-bb0c-31c1ad00de2b" />
 
-## Задание 2. Настройка файрвола с помощью iptables/nftables
+# Задание 2. Настройка файрвола с помощью iptables/nftables
 
 ### Cкрипт firewall_rules.sh для применения правил
 
@@ -141,3 +141,17 @@ ________________________________________________________________________________
 `tcp dport 8080 redirect to :80` - перенаправляет входящий трафик с порта 8080 на порт 80
 
 ---
+
+## Проверка правил nftable
+
+<img width="477" height="154" alt="Image" src="https://github.com/user-attachments/assets/e8e570f1-7162-46b1-8141-d0b5bd931646" />
+ICMP запрещен за счет правила для входящих соединений `type filter hook input priority filter; policy drop;` 
+
+---
+
+<img width="623" height="472" alt="Image" src="https://github.com/user-attachments/assets/43c5258e-d397-429c-8319-ce29529c13d1" />
+Редирект с помощью правила `tcp dport 8080 redirect to :80` 
+
+---
+
+
