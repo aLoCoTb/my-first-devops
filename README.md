@@ -145,11 +145,13 @@ ________________________________________________________________________________
 ## Проверка правил nftable
 
 <img width="477" height="154" alt="Image" src="https://github.com/user-attachments/assets/e8e570f1-7162-46b1-8141-d0b5bd931646" />
+
 ICMP запрещен за счет правила для входящих соединений `type filter hook input priority filter; policy drop;` 
 
 ---
 
-<img width="623" height="472" alt="Image" src="https://github.com/user-attachments/assets/43c5258e-d397-429c-8319-ce29529c13d1" />
+<img width="600" height="500" alt="Image" src="https://github.com/user-attachments/assets/43c5258e-d397-429c-8319-ce29529c13d1" />
+
 Редирект с помощью правила `tcp dport 8080 redirect to :80` 
 
 ---
