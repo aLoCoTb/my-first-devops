@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# firewall_save.sh  простой скрипт для сохранения правил nftables
-
-
 SAVE_FILE="/etc/nftables.conf"
 
 
