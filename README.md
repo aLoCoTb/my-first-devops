@@ -191,8 +191,14 @@ echo "Скрипт firewall_save.sh завершён."
 
 ```
 Запускаем скрипт `firewall_rules.sh`
+
 Сохраняем правила через `firewall_save.sh`
-Перезапускаем `reboot` и проверяем остались ли правила
+
+Перезапускаем `reboot` и проверяем остались ли правила `nft list ruleset`
+
+<img width="600" height="500" alt="Image" src="https://github.com/user-attachments/assets/5872ce98-76f0-45f9-968e-cdb3df9d3249" />
+
+*По выводу `uptime` видно что VM была перезапущена*
 
 # Задание 3. Работа с LVM
 
